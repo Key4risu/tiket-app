@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-07-26T00:00:00.000Z" agent="blackbox" etag="54321" version="15.8.7" type="device">
+  <diagram id="fullAppDiagramImproved" name="Full Application Flow - Improved">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- Start -->
+        <mxCell id="start" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#00FF00;" vertex="1" parent="1">
+          <mxGeometry x="520" y="20" width="80" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- Check Login -->
+        <mxCell id="checkLogin" value="User Logged In?" style="rhombus;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500" y="80" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Login Page -->
+        <mxCell id="loginPage" value="Login Page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Lupa Password -->
+        <mxCell id="lupaPassword" value="Lupa Password" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Edge from Login Page to Lupa Password -->
+        <mxCell id="edgeLoginToLupa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="loginPage" target="lupaPassword">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Register Page -->
+        <mxCell id="registerPage" value="Register Page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="660" y="160" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Dashboard -->
+        <mxCell id="dashboard" value="Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="500" y="260" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Navbar Options -->
+        <mxCell id="navbarOptions" value="Navbar Options" style="rectangle;whiteSpace=wrap;html=1;fillColor=#E0E0E0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="340" width="120" height="140" as="geometry"/>
+        </mxCell>
+        
+        <!-- List Options (Pesan Tiket) -->
+        <mxCell id="listOptions" value="List Options (Pesan Tiket)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="1">
+          <mxGeometry x="320" y="500" width="160" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Pesan KRL -->
+        <mxCell id="pesanKRL" value="Pesan KRL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEECC;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Proses Pesan KRL -->
+        <mxCell id="prosesPesanKRL" value="Proses Pesan KRL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEEDD;" vertex="1" parent="1">
+          <mxGeometry x="120" y="660" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Pesan Transjakarta -->
+        <mxCell id="pesanTransjakarta" value="Pesan Transjakarta" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEECC;" vertex="1" parent="1">
+          <mxGeometry x="360" y="580" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Proses Pesan Transjakarta -->
+        <mxCell id="prosesPesanTransjakarta" value="Proses Pesan Transjakarta" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFEEDD;" vertex="1" parent="1">
+          <mxGeometry x="360" y="660" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Riwayat Pesanan -->
+        <mxCell id="riwayatPesanan" value="Riwayat Pesanan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCEEFF;" vertex="1" parent="1">
+          <mxGeometry x="680" y="500" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Reset Password -->
+        <mxCell id="resetPassword" value="Reset Password" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Logout -->
+        <mxCell id="logout" value="Logout" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="500" y="460" width="120" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- End -->
+        <mxCell id="end" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="520" y="740" width="80" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- Edges -->
+        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="start" target="checkLogin">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="checkLogin" target="loginPage">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="checkLogin" target="dashboard">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="loginPage" target="registerPage">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="registerPage" target="dashboard">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dashboard" target="navbarOptions">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="navbarOptions" target="listOptions">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="listOptions" target="pesanKRL">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pesanKRL" target="prosesPesanKRL">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="listOptions" target="pesanTransjakarta">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pesanTransjakarta" target="prosesPesanTransjakarta">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="navbarOptions" target="riwayatPesanan">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <!--<mxCell id="edge13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="navbarOptions" target="lupaPassword">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>-->
+        <mxCell id="edge14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lupaPassword" target="resetPassword">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="navbarOptions" target="logout">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="logout" target="end">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="resetPassword" target="end">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
